@@ -16,10 +16,10 @@ function togglePassword() {
 
     if (passwordInput.type === "password") {
         passwordInput.type = "text";
-        eyeIcon.src = "files/eye-open.png";
+        eyeIcon.src = "assets/open.jpg";
     } else {
         passwordInput.type = "password";
-        eyeIcon.src = "files/eye-closed.png";
+        eyeIcon.src = "assets/closed.jpg";
     }
 }
 
